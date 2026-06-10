@@ -1,0 +1,523 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\kahra\Desktop\lstm> python .\03-seq_len.py
+
+========== seq_len = 2 ==========
+── Optuna HP Arama ──
+[I 2026-05-15 16:14:57,842] A new study created in memory with name: no-name-eb4091a8-7290-48aa-9edf-3a90f2b3487b
+[I 2026-05-15 16:18:59,466] Trial 0 finished with value: 0.5183486647886982 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.00015049823137689756, 'bidirectional': False}. Best is trial 0 with value: 0.5183486647886982.
+[I 2026-05-15 16:22:37,522] Trial 1 finished with value: 0.577042971318089 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.0002619937519805965, 'bidirectional': False}. Best is trial 1 with value: 0.577042971318089.
+[I 2026-05-15 16:25:45,895] Trial 2 finished with value: 0.5646347775863961 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.0005048827176886273, 'bidirectional': False}. Best is trial 1 with value: 0.577042971318089.
+[I 2026-05-15 16:28:49,239] Trial 3 finished with value: 0.5872234128071834 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.009945297032465885, 'bidirectional': False}. Best is trial 3 with value: 0.5872234128071834.
+[I 2026-05-15 16:35:54,545] Trial 4 finished with value: 0.591892933392595 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.0001682875271311384, 'bidirectional': True}. Best is trial 4 with value: 0.591892933392595.
+[I 2026-05-15 16:37:54,297] Trial 5 finished with value: 0.557630304096445 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.00025635981504454607, 'bidirectional': True}. Best is trial 4 with value: 0.591892933392595.
+[I 2026-05-15 16:45:25,069] Trial 6 finished with value: 0.5963832007626131 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.0035279963180511837, 'bidirectional': True}. Best is trial 6 with value: 0.5963832007626131.
+[I 2026-05-15 16:49:48,925] Trial 7 finished with value: 0.6063359131955295 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.0006175227891348917, 'bidirectional': False}. Best is trial 7 with value: 0.6063359131955295.
+[I 2026-05-15 16:53:27,296] Trial 8 finished with value: 0.5231353903347185 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.00010572343370715406, 'bidirectional': False}. Best is trial 7 with value: 0.6063359131955295.
+[I 2026-05-15 16:58:37,064] Trial 9 finished with value: 0.5575264154242391 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.00019914644624198567, 'bidirectional': True}. Best is trial 7 with value: 0.6063359131955295.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.5626
+Epoch 20 | Val F1: 0.5909
+Epoch 30 | Val F1: 0.6032
+Epoch 40 | Val F1: 0.6097
+Epoch 50 | Val F1: 0.6197
+Epoch 60 | Val F1: 0.6367
+Epoch 70 | Val F1: 0.6454
+Epoch 80 | Val F1: 0.6431
+Epoch 90 | Val F1: 0.6390
+Epoch 100 | Val F1: 0.6434
+✅ Tamamlandı. Çıktılar './2' klasöründe.
+
+========== seq_len = 3 ==========
+── Optuna HP Arama ──
+[I 2026-05-15 17:24:00,213] A new study created in memory with name: no-name-b5869be5-42db-4a7b-a4e5-71e9dae5c23a
+[I 2026-05-15 17:26:48,134] Trial 0 finished with value: 0.5010575902524496 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.008866146134100505, 'bidirectional': False}. Best is trial 0 with value: 0.5010575902524496.
+[I 2026-05-15 17:29:51,534] Trial 1 finished with value: 0.6513395338740695 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.003539917884735934, 'bidirectional': True}. Best is trial 1 with value: 0.6513395338740695.
+[I 2026-05-15 17:33:05,035] Trial 2 finished with value: 0.5887049256618387 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.00018677139697726152, 'bidirectional': False}. Best is trial 1 with value: 0.6513395338740695.
+[I 2026-05-15 17:36:40,489] Trial 3 finished with value: 0.5964233220099082 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.0003090743061670975, 'bidirectional': False}. Best is trial 1 with value: 0.6513395338740695.
+[I 2026-05-15 17:40:54,387] Trial 4 finished with value: 0.6294672953099392 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.001943826844418551, 'bidirectional': False}. Best is trial 1 with value: 0.6513395338740695.
+[I 2026-05-15 17:44:05,670] Trial 5 finished with value: 0.6464689038648759 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.004550089415843747, 'bidirectional': True}. Best is trial 1 with value: 0.6513395338740695.
+[I 2026-05-15 17:47:21,110] Trial 6 finished with value: 0.6336188384762015 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.0007895661895787956, 'bidirectional': True}. Best is trial 1 with value: 0.6513395338740695.
+[I 2026-05-15 17:52:46,731] Trial 7 finished with value: 0.6459337916818085 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.0017623658812863656, 'bidirectional': True}. Best is trial 1 with value: 0.6513395338740695.
+[I 2026-05-15 17:56:44,138] Trial 8 finished with value: 0.5870998331916939 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.007542579055464003, 'bidirectional': False}. Best is trial 1 with value: 0.6513395338740695.
+[I 2026-05-15 18:00:15,754] Trial 9 finished with value: 0.6341571414631141 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.0007136283805539881, 'bidirectional': False}. Best is trial 1 with value: 0.6513395338740695.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.6198
+Epoch 20 | Val F1: 0.6372
+Epoch 30 | Val F1: 0.6545
+Epoch 40 | Val F1: 0.6417
+Epoch 50 | Val F1: 0.6418
+Epoch 60 | Val F1: 0.6473
+Epoch 70 | Val F1: 0.6445
+Epoch 80 | Val F1: 0.6486
+Epoch 90 | Val F1: 0.6437
+Epoch 100 | Val F1: 0.6294
+✅ Tamamlandı. Çıktılar './3' klasöründe.
+
+========== seq_len = 4 ==========
+── Optuna HP Arama ──
+[I 2026-05-15 18:37:18,656] A new study created in memory with name: no-name-b1378c69-22e5-4e8a-a6fa-67a03827d5ae
+[I 2026-05-15 18:42:07,846] Trial 0 finished with value: 0.6433340974984907 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.00012977480915756217, 'bidirectional': False}. Best is trial 0 with value: 0.6433340974984907.
+[I 2026-05-15 18:46:49,937] Trial 1 finished with value: 0.6829398215341791 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.0006918108184781716, 'bidirectional': True}. Best is trial 1 with value: 0.6829398215341791.
+[I 2026-05-15 18:54:19,160] Trial 2 finished with value: 0.6785211993251268 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.0003528230409432826, 'bidirectional': True}. Best is trial 1 with value: 0.6829398215341791.
+[I 2026-05-15 18:58:22,813] Trial 3 finished with value: 0.6610053918814502 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.0004387292973412477, 'bidirectional': False}. Best is trial 1 with value: 0.6829398215341791.
+[I 2026-05-15 19:03:50,875] Trial 4 finished with value: 0.648726837947333 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.004722235791369144, 'bidirectional': True}. Best is trial 1 with value: 0.6829398215341791.
+[I 2026-05-15 19:07:04,904] Trial 5 finished with value: 0.632916492712573 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.00018955239033085843, 'bidirectional': True}. Best is trial 1 with value: 0.6829398215341791.
+[I 2026-05-15 19:10:56,804] Trial 6 finished with value: 0.6868797599208206 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.0005994676722562599, 'bidirectional': True}. Best is trial 6 with value: 0.6868797599208206.
+[I 2026-05-15 19:18:17,257] Trial 7 finished with value: 0.6773863710096077 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.00026308854707157324, 'bidirectional': True}. Best is trial 6 with value: 0.6868797599208206.
+[I 2026-05-15 19:22:39,137] Trial 8 finished with value: 0.6423847723080891 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.008767273942572233, 'bidirectional': True}. Best is trial 6 with value: 0.6868797599208206.
+[I 2026-05-15 19:25:56,826] Trial 9 finished with value: 0.6456591079223818 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.00028067618134017746, 'bidirectional': True}. Best is trial 6 with value: 0.6868797599208206.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.6444
+Epoch 20 | Val F1: 0.6573
+Epoch 30 | Val F1: 0.6850
+Epoch 40 | Val F1: 0.6942
+Epoch 50 | Val F1: 0.6863
+Epoch 60 | Val F1: 0.7060
+Epoch 70 | Val F1: 0.6997
+Epoch 80 | Val F1: 0.6976
+Epoch 90 | Val F1: 0.7055
+Epoch 100 | Val F1: 0.7094
+✅ Tamamlandı. Çıktılar './4' klasöründe.
+
+========== seq_len = 5 ==========
+── Optuna HP Arama ──
+[I 2026-05-15 19:53:38,581] A new study created in memory with name: no-name-f6bc21cf-7d26-46ea-bd1e-0c9de962cfd8
+[I 2026-05-15 19:56:34,641] Trial 0 finished with value: 0.6979450884875525 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.004052526942172265, 'bidirectional': False}. Best is trial 0 with value: 0.6979450884875525.
+[I 2026-05-15 20:01:21,934] Trial 1 finished with value: 0.6965839508389502 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.000736268790190375, 'bidirectional': True}. Best is trial 0 with value: 0.6979450884875525.
+[I 2026-05-15 20:06:26,716] Trial 2 finished with value: 0.6142636835036209 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.008251893936322965, 'bidirectional': True}. Best is trial 0 with value: 0.6979450884875525.
+[I 2026-05-15 20:12:18,651] Trial 3 finished with value: 0.6740250531042681 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.0001364691725525001, 'bidirectional': True}. Best is trial 0 with value: 0.6979450884875525.
+[I 2026-05-15 20:16:53,807] Trial 4 finished with value: 0.688363616442815 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.004388147380569011, 'bidirectional': True}. Best is trial 0 with value: 0.6979450884875525.
+[I 2026-05-15 20:20:14,727] Trial 5 finished with value: 0.6886523388616976 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.00035301513429840083, 'bidirectional': False}. Best is trial 0 with value: 0.6979450884875525.
+[I 2026-05-15 20:24:24,601] Trial 6 finished with value: 0.6734114940782988 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.00041563226193256833, 'bidirectional': False}. Best is trial 0 with value: 0.6979450884875525.
+[I 2026-05-15 20:28:04,730] Trial 7 finished with value: 0.7021768615621349 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.002986165776097077, 'bidirectional': True}. Best is trial 7 with value: 0.7021768615621349.
+[I 2026-05-15 20:32:01,145] Trial 8 finished with value: 0.6636344434517688 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.005490599621494556, 'bidirectional': False}. Best is trial 7 with value: 0.7021768615621349.
+[I 2026-05-15 20:35:21,482] Trial 9 finished with value: 0.6871486234187686 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.005339169436515503, 'bidirectional': True}. Best is trial 7 with value: 0.7021768615621349.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.6789
+Epoch 20 | Val F1: 0.6750
+Epoch 30 | Val F1: 0.6910
+Epoch 40 | Val F1: 0.6986
+Epoch 50 | Val F1: 0.6940
+Epoch 60 | Val F1: 0.6939
+Epoch 70 | Val F1: 0.7025
+Epoch 80 | Val F1: 0.7141
+Epoch 90 | Val F1: 0.6978
+Epoch 100 | Val F1: 0.7070
+✅ Tamamlandı. Çıktılar './5' klasöründe.
+
+========== seq_len = 6 ==========
+── Optuna HP Arama ──
+[I 2026-05-15 21:06:18,987] A new study created in memory with name: no-name-6c92f214-45fd-4486-8810-a508cb360563
+[I 2026-05-15 21:09:19,226] Trial 0 finished with value: 0.7093697416437215 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.0025998553557274517, 'bidirectional': False}. Best is trial 0 with value: 0.7093697416437215.
+[I 2026-05-15 21:12:53,126] Trial 1 finished with value: 0.6853940404486378 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.004486863700065843, 'bidirectional': False}. Best is trial 0 with value: 0.7093697416437215.
+[I 2026-05-15 21:15:55,623] Trial 2 finished with value: 0.6648241793223254 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.00011773376961060981, 'bidirectional': False}. Best is trial 0 with value: 0.7093697416437215.
+[I 2026-05-15 21:21:04,338] Trial 3 finished with value: 0.6982345735727622 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.0038970823489338016, 'bidirectional': True}. Best is trial 0 with value: 0.7093697416437215.
+[I 2026-05-15 21:24:15,290] Trial 4 finished with value: 0.6980027792030293 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.00034777826410072445, 'bidirectional': False}. Best is trial 0 with value: 0.7093697416437215.
+[I 2026-05-15 21:27:38,624] Trial 5 finished with value: 0.6987855922178382 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.00035399853561708384, 'bidirectional': True}. Best is trial 0 with value: 0.7093697416437215.
+[I 2026-05-15 21:32:06,785] Trial 6 finished with value: 0.6842050494715592 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.0001818349427981676, 'bidirectional': True}. Best is trial 0 with value: 0.7093697416437215.
+[I 2026-05-15 21:37:45,282] Trial 7 finished with value: 0.7091712635723768 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.000488170571857712, 'bidirectional': True}. Best is trial 0 with value: 0.7093697416437215.
+[I 2026-05-15 21:42:43,304] Trial 8 finished with value: 0.7181994974243247 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.0004669015204519544, 'bidirectional': True}. Best is trial 8 with value: 0.7181994974243247.
+[I 2026-05-15 21:46:21,076] Trial 9 finished with value: 0.6852817539136197 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.009037943422129423, 'bidirectional': True}. Best is trial 8 with value: 0.7181994974243247.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.6915
+Epoch 20 | Val F1: 0.7100
+Epoch 30 | Val F1: 0.7118
+Epoch 40 | Val F1: 0.7211
+Epoch 50 | Val F1: 0.7302
+Epoch 60 | Val F1: 0.7205
+Epoch 70 | Val F1: 0.7216
+Epoch 80 | Val F1: 0.7212
+Epoch 90 | Val F1: 0.7230
+Epoch 100 | Val F1: 0.7241
+✅ Tamamlandı. Çıktılar './6' klasöründe.
+
+========== seq_len = 7 ==========
+── Optuna HP Arama ──
+[I 2026-05-15 22:30:31,275] A new study created in memory with name: no-name-2d2f5c8d-f138-46ff-8c4f-0d568b24320e
+[I 2026-05-15 22:34:05,636] Trial 0 finished with value: 0.7056430876483396 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.000435115478464019, 'bidirectional': False}. Best is trial 0 with value: 0.7056430876483396.
+[I 2026-05-15 22:37:05,307] Trial 1 finished with value: 0.7244654184180198 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.00273788234961841, 'bidirectional': False}. Best is trial 1 with value: 0.7244654184180198.
+[I 2026-05-15 22:41:05,398] Trial 2 finished with value: 0.7164361368292651 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.0034940235237541323, 'bidirectional': True}. Best is trial 1 with value: 0.7244654184180198.
+[I 2026-05-15 22:45:21,704] Trial 3 finished with value: 0.7089507970585259 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.00020081667863116803, 'bidirectional': False}. Best is trial 1 with value: 0.7244654184180198.
+[I 2026-05-15 22:51:06,984] Trial 4 finished with value: 0.7145183321567891 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.0011290240140707792, 'bidirectional': True}. Best is trial 1 with value: 0.7244654184180198.
+[I 2026-05-15 22:55:47,412] Trial 5 finished with value: 0.6982818727062833 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.00010382518501057852, 'bidirectional': True}. Best is trial 1 with value: 0.7244654184180198.
+[I 2026-05-15 23:00:44,563] Trial 6 finished with value: 0.5792714132682293 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.008616310230800742, 'bidirectional': True}. Best is trial 1 with value: 0.7244654184180198.
+[I 2026-05-15 23:04:43,655] Trial 7 finished with value: 0.6727031566788817 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.008401137280902329, 'bidirectional': True}. Best is trial 1 with value: 0.7244654184180198.
+[I 2026-05-15 23:10:01,595] Trial 8 finished with value: 0.6983656495982443 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.00011523948236465051, 'bidirectional': False}. Best is trial 1 with value: 0.7244654184180198.
+[I 2026-05-15 23:12:27,533] Trial 9 finished with value: 0.7128294907208917 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.0027007428074401728, 'bidirectional': False}. Best is trial 1 with value: 0.7244654184180198.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.7071
+Epoch 20 | Val F1: 0.7055
+Epoch 30 | Val F1: 0.7235
+Epoch 40 | Val F1: 0.7103
+Epoch 50 | Val F1: 0.7271
+Epoch 60 | Val F1: 0.7162
+Epoch 70 | Val F1: 0.7296
+Epoch 80 | Val F1: 0.7293
+Epoch 90 | Val F1: 0.7189
+Epoch 100 | Val F1: 0.7298
+✅ Tamamlandı. Çıktılar './7' klasöründe.
+
+========== seq_len = 8 ==========
+── Optuna HP Arama ──
+[I 2026-05-15 23:31:20,146] A new study created in memory with name: no-name-85025d98-8fbd-49cf-b7cb-8e0c2e66d640
+[I 2026-05-15 23:34:40,591] Trial 0 finished with value: 0.6955155170006113 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.00022409896777076838, 'bidirectional': False}. Best is trial 0 with value: 0.6955155170006113.
+[I 2026-05-15 23:38:39,097] Trial 1 finished with value: 0.7135024035925542 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.00035057063126792717, 'bidirectional': False}. Best is trial 1 with value: 0.7135024035925542.
+[I 2026-05-15 23:41:42,046] Trial 2 finished with value: 0.7192779636250088 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.0011012979574224456, 'bidirectional': False}. Best is trial 2 with value: 0.7192779636250088.
+[I 2026-05-15 23:44:47,937] Trial 3 finished with value: 0.7270831344707491 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.004349248877856008, 'bidirectional': False}. Best is trial 3 with value: 0.7270831344707491.
+[I 2026-05-15 23:47:59,199] Trial 4 finished with value: 0.7265258444064764 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.001445916844864312, 'bidirectional': True}. Best is trial 3 with value: 0.7270831344707491.
+[I 2026-05-15 23:49:09,659] Trial 5 finished with value: 0.6785628849627096 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.00014614797185987278, 'bidirectional': False}. Best is trial 3 with value: 0.7270831344707491.
+[I 2026-05-15 23:50:21,566] Trial 6 finished with value: 0.7228919112438662 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.0010259786025977127, 'bidirectional': False}. Best is trial 3 with value: 0.7270831344707491.
+[I 2026-05-15 23:52:25,755] Trial 7 finished with value: 0.6992419547901724 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.00457996309038602, 'bidirectional': True}. Best is trial 3 with value: 0.7270831344707491.
+[I 2026-05-15 23:53:59,670] Trial 8 finished with value: 0.7215500738491661 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.0004442822193344399, 'bidirectional': True}. Best is trial 3 with value: 0.7270831344707491.
+[I 2026-05-15 23:55:36,453] Trial 9 finished with value: 0.7215506513386379 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.0005037723668374373, 'bidirectional': True}. Best is trial 3 with value: 0.7270831344707491.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.6777
+Epoch 20 | Val F1: 0.7066
+Epoch 30 | Val F1: 0.7111
+Epoch 40 | Val F1: 0.7008
+Epoch 50 | Val F1: 0.7109
+Epoch 60 | Val F1: 0.6953
+Epoch 70 | Val F1: 0.6977
+Epoch 80 | Val F1: 0.6999
+Epoch 90 | Val F1: 0.6869
+Epoch 100 | Val F1: 0.6689
+✅ Tamamlandı. Çıktılar './8' klasöründe.
+
+========== seq_len = 9 ==========
+── Optuna HP Arama ──
+[I 2026-05-16 00:04:08,918] A new study created in memory with name: no-name-b089aa91-3df4-45be-a11d-d8e815984a24
+[I 2026-05-16 00:05:43,079] Trial 0 finished with value: 0.7272889755689474 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.00345188290035094, 'bidirectional': False}. Best is trial 0 with value: 0.7272889755689474.
+[I 2026-05-16 00:06:50,121] Trial 1 finished with value: 0.7058901925563382 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.0004812492430026318, 'bidirectional': False}. Best is trial 0 with value: 0.7272889755689474.
+[I 2026-05-16 00:07:50,156] Trial 2 finished with value: 0.7075204938762338 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.00018424140638672822, 'bidirectional': False}. Best is trial 0 with value: 0.7272889755689474.
+[I 2026-05-16 00:09:03,886] Trial 3 finished with value: 0.7219475443519782 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.0001381630138757502, 'bidirectional': False}. Best is trial 0 with value: 0.7272889755689474.
+[I 2026-05-16 00:10:42,029] Trial 4 finished with value: 0.7190756947264229 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.00013311894281948163, 'bidirectional': True}. Best is trial 0 with value: 0.7272889755689474.
+[I 2026-05-16 00:11:56,050] Trial 5 finished with value: 0.7131981653301912 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.0001748014098352789, 'bidirectional': True}. Best is trial 0 with value: 0.7272889755689474.
+[I 2026-05-16 00:13:34,193] Trial 6 finished with value: 0.7236736807899229 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.00025846760980263055, 'bidirectional': False}. Best is trial 0 with value: 0.7272889755689474.
+[I 2026-05-16 00:20:38,783] Trial 7 finished with value: 0.7226511863159552 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.00014951506408174723, 'bidirectional': True}. Best is trial 0 with value: 0.7272889755689474.
+[I 2026-05-16 00:22:02,008] Trial 8 finished with value: 0.7401540497845425 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.002113948347613872, 'bidirectional': True}. Best is trial 8 with value: 0.7401540497845425.
+[I 2026-05-16 00:25:41,699] Trial 9 finished with value: 0.7342655365339374 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.001539923863484698, 'bidirectional': True}. Best is trial 8 with value: 0.7401540497845425.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.7075
+Epoch 20 | Val F1: 0.7116
+Epoch 30 | Val F1: 0.7315
+Epoch 40 | Val F1: 0.7316
+Epoch 50 | Val F1: 0.7305
+Epoch 60 | Val F1: 0.7300
+Epoch 70 | Val F1: 0.7369
+Epoch 80 | Val F1: 0.7356
+Epoch 90 | Val F1: 0.7347
+Epoch 100 | Val F1: 0.7317
+✅ Tamamlandı. Çıktılar './9' klasöründe.
+
+========== seq_len = 10 ==========
+── Optuna HP Arama ──
+[I 2026-05-16 00:34:44,478] A new study created in memory with name: no-name-b71fab0f-fc50-4d59-abb1-3053277be235
+[I 2026-05-16 00:36:00,971] Trial 0 finished with value: 0.7271407416604285 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.00023014508001819575, 'bidirectional': False}. Best is trial 0 with value: 0.7271407416604285.
+[I 2026-05-16 00:37:33,956] Trial 1 finished with value: 0.7188391339258897 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.00011420503401601664, 'bidirectional': True}. Best is trial 0 with value: 0.7271407416604285.
+[I 2026-05-16 00:38:47,520] Trial 2 finished with value: 0.723361324446192 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.005067758626638318, 'bidirectional': True}. Best is trial 0 with value: 0.7271407416604285.
+[I 2026-05-16 00:40:15,623] Trial 3 finished with value: 0.719704992871168 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.0004830975650085617, 'bidirectional': False}. Best is trial 0 with value: 0.7271407416604285.
+[I 2026-05-16 00:41:28,721] Trial 4 finished with value: 0.7213214079086451 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.0004964725145329242, 'bidirectional': True}. Best is trial 0 with value: 0.7271407416604285.
+[I 2026-05-16 00:42:29,747] Trial 5 finished with value: 0.7213455303860554 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.0009122176315508668, 'bidirectional': False}. Best is trial 0 with value: 0.7271407416604285.
+[I 2026-05-16 00:44:43,689] Trial 6 finished with value: 0.731137074219779 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.00016192041051743552, 'bidirectional': False}. Best is trial 6 with value: 0.731137074219779.
+[I 2026-05-16 00:45:54,971] Trial 7 finished with value: 0.7245283392889542 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.00421390255861552, 'bidirectional': False}. Best is trial 6 with value: 0.731137074219779.
+[I 2026-05-16 00:47:35,529] Trial 8 finished with value: 0.7336320200628584 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.00018045655523810116, 'bidirectional': True}. Best is trial 8 with value: 0.7336320200628584.
+[I 2026-05-16 00:49:04,557] Trial 9 finished with value: 0.737362802317385 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.0029773630650613303, 'bidirectional': False}. Best is trial 9 with value: 0.737362802317385.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.6900
+Epoch 20 | Val F1: 0.7112
+Epoch 30 | Val F1: 0.7108
+Epoch 40 | Val F1: 0.7226
+Epoch 50 | Val F1: 0.7188
+Epoch 60 | Val F1: 0.7259
+Epoch 70 | Val F1: 0.7118
+Epoch 80 | Val F1: 0.7153
+Epoch 90 | Val F1: 0.6961
+Epoch 100 | Val F1: 0.6915
+✅ Tamamlandı. Çıktılar './10' klasöründe.
+
+========== seq_len = 11 ==========
+── Optuna HP Arama ──
+[I 2026-05-16 00:59:35,898] A new study created in memory with name: no-name-072f2f16-ab97-4523-b61d-6a2d98e4f6bc
+[I 2026-05-16 01:00:55,347] Trial 0 finished with value: 0.7384115909431507 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.002664058828483121, 'bidirectional': False}. Best is trial 0 with value: 0.7384115909431507.
+[I 2026-05-16 01:02:05,772] Trial 1 finished with value: 0.7482683484009874 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.0010987030263431754, 'bidirectional': True}. Best is trial 1 with value: 0.7482683484009874.
+[I 2026-05-16 01:06:17,616] Trial 2 finished with value: 0.7349908609808403 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.0002344232570356826, 'bidirectional': True}. Best is trial 1 with value: 0.7482683484009874.
+[I 2026-05-16 01:14:30,582] Trial 3 finished with value: 0.733805358903854 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.00012370307616084412, 'bidirectional': True}. Best is trial 1 with value: 0.7482683484009874.
+[I 2026-05-16 01:16:14,740] Trial 4 finished with value: 0.7355263073578585 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.0009305895742475875, 'bidirectional': False}. Best is trial 1 with value: 0.7482683484009874.
+[I 2026-05-16 01:18:30,979] Trial 5 finished with value: 0.7346869275573793 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.0018749593364451032, 'bidirectional': True}. Best is trial 1 with value: 0.7482683484009874.
+[I 2026-05-16 01:26:43,298] Trial 6 finished with value: 0.7403528883001376 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.00042489829437228186, 'bidirectional': True}. Best is trial 1 with value: 0.7482683484009874.
+[I 2026-05-16 01:28:45,850] Trial 7 finished with value: 0.6193287664829091 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.0099591057364905, 'bidirectional': True}. Best is trial 1 with value: 0.7482683484009874.
+[I 2026-05-16 01:30:41,199] Trial 8 finished with value: 0.730622703064626 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.0021212985805205728, 'bidirectional': True}. Best is trial 1 with value: 0.7482683484009874.
+[I 2026-05-16 01:32:35,494] Trial 9 finished with value: 0.6804418691188094 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.0071568768486342735, 'bidirectional': True}. Best is trial 1 with value: 0.7482683484009874.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.7024
+Epoch 20 | Val F1: 0.7135
+Epoch 30 | Val F1: 0.7156
+Epoch 40 | Val F1: 0.7252
+Epoch 50 | Val F1: 0.7298
+Epoch 60 | Val F1: 0.7376
+Epoch 70 | Val F1: 0.7441
+Epoch 80 | Val F1: 0.7274
+Epoch 90 | Val F1: 0.7333
+Epoch 100 | Val F1: 0.7345
+✅ Tamamlandı. Çıktılar './11' klasöründe.
+
+========== seq_len = 12 ==========
+── Optuna HP Arama ──
+[I 2026-05-16 01:40:44,423] A new study created in memory with name: no-name-ad536604-c3c4-4c97-b33e-8b17f28ce9b4
+[I 2026-05-16 01:41:53,983] Trial 0 finished with value: 0.721210922028632 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.005832965281904159, 'bidirectional': False}. Best is trial 0 with value: 0.721210922028632.
+[I 2026-05-16 01:43:25,560] Trial 1 finished with value: 0.7343045201600412 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.002672325900673294, 'bidirectional': False}. Best is trial 1 with value: 0.7343045201600412.
+[I 2026-05-16 01:44:45,313] Trial 2 finished with value: 0.7363201516288085 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.00019800961885390995, 'bidirectional': False}. Best is trial 2 with value: 0.7363201516288085.
+[I 2026-05-16 01:45:42,609] Trial 3 finished with value: 0.7364230143954963 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.002283282535185165, 'bidirectional': False}. Best is trial 3 with value: 0.7364230143954963.
+[I 2026-05-16 01:49:59,103] Trial 4 finished with value: 0.742599893435238 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.001361201927188097, 'bidirectional': True}. Best is trial 4 with value: 0.742599893435238.
+[I 2026-05-16 01:52:03,093] Trial 5 finished with value: 0.7355017316386828 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.0003041178470377125, 'bidirectional': True}. Best is trial 4 with value: 0.742599893435238.
+[I 2026-05-16 01:53:25,482] Trial 6 finished with value: 0.710854383658589 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.00017943658549387321, 'bidirectional': False}. Best is trial 4 with value: 0.742599893435238.
+[I 2026-05-16 01:54:55,259] Trial 7 finished with value: 0.7374874326823966 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.0010420499708565917, 'bidirectional': False}. Best is trial 4 with value: 0.742599893435238.
+[I 2026-05-16 01:56:08,313] Trial 8 finished with value: 0.7322513744204947 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.005592552428421837, 'bidirectional': True}. Best is trial 4 with value: 0.742599893435238.
+[I 2026-05-16 01:57:10,209] Trial 9 finished with value: 0.7319528715720535 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.0077700127806591196, 'bidirectional': False}. Best is trial 4 with value: 0.742599893435238.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.7088
+Epoch 20 | Val F1: 0.7318
+Epoch 30 | Val F1: 0.7392
+Epoch 40 | Val F1: 0.7305
+Epoch 50 | Val F1: 0.7342
+Epoch 60 | Val F1: 0.7293
+Epoch 70 | Val F1: 0.7315
+Epoch 80 | Val F1: 0.7343
+Epoch 90 | Val F1: 0.7356
+Epoch 100 | Val F1: 0.7291
+✅ Tamamlandı. Çıktılar './12' klasöründe.
+
+========== seq_len = 13 ==========
+── Optuna HP Arama ──
+[I 2026-05-16 02:34:13,362] A new study created in memory with name: no-name-e1b73cf6-6540-4e8b-8d91-41310ea0bd52
+[I 2026-05-16 02:36:09,356] Trial 0 finished with value: 0.7399288005931401 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.000801477992880025, 'bidirectional': False}. Best is trial 0 with value: 0.7399288005931401.
+[I 2026-05-16 02:37:33,360] Trial 1 finished with value: 0.731644587430497 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.00032456556905838344, 'bidirectional': False}. Best is trial 0 with value: 0.7399288005931401.
+[I 2026-05-16 02:38:38,465] Trial 2 finished with value: 0.7485242016140875 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.0012126295498342747, 'bidirectional': False}. Best is trial 2 with value: 0.7485242016140875.
+[I 2026-05-16 02:40:13,286] Trial 3 finished with value: 0.7282576751180435 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.0001368591570163151, 'bidirectional': True}. Best is trial 2 with value: 0.7485242016140875.
+[I 2026-05-16 02:41:46,345] Trial 4 finished with value: 0.7200891965656994 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.006697571882100484, 'bidirectional': True}. Best is trial 2 with value: 0.7485242016140875.
+[I 2026-05-16 02:43:03,052] Trial 5 finished with value: 0.7272594557503624 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.00022465849214812103, 'bidirectional': False}. Best is trial 2 with value: 0.7485242016140875.
+[I 2026-05-16 02:44:52,983] Trial 6 finished with value: 0.6589372691967813 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.009224680891212471, 'bidirectional': True}. Best is trial 2 with value: 0.7485242016140875.
+[I 2026-05-16 02:47:02,650] Trial 7 finished with value: 0.7314317966634155 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.0007153785978797147, 'bidirectional': True}. Best is trial 2 with value: 0.7485242016140875.
+[I 2026-05-16 02:56:44,411] Trial 8 finished with value: 0.7286404356041074 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.0011295771406719221, 'bidirectional': True}. Best is trial 2 with value: 0.7485242016140875.
+[I 2026-05-16 03:00:20,689] Trial 9 finished with value: 0.7376911587712961 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.003054131789764215, 'bidirectional': False}. Best is trial 2 with value: 0.7485242016140875.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.7217
+Epoch 20 | Val F1: 0.7223
+Epoch 30 | Val F1: 0.7361
+Epoch 40 | Val F1: 0.7426
+Epoch 50 | Val F1: 0.7378
+Epoch 60 | Val F1: 0.7362
+Epoch 70 | Val F1: 0.7286
+Epoch 80 | Val F1: 0.7364
+Epoch 90 | Val F1: 0.7410
+Epoch 100 | Val F1: 0.7433
+✅ Tamamlandı. Çıktılar './13' klasöründe.
+
+========== seq_len = 14 ==========
+── Optuna HP Arama ──
+[I 2026-05-16 03:07:43,807] A new study created in memory with name: no-name-36901ae1-2d30-42e4-a677-a98c90d23ff7
+[I 2026-05-16 03:08:59,193] Trial 0 finished with value: 0.7451586098760196 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.004125017568131146, 'bidirectional': True}. Best is trial 0 with value: 0.7451586098760196.
+[I 2026-05-16 03:11:00,205] Trial 1 finished with value: 0.726339613785705 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.0001116233718384265, 'bidirectional': False}. Best is trial 0 with value: 0.7451586098760196.
+[I 2026-05-16 03:20:58,740] Trial 2 finished with value: 0.7359239209916425 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.0005034640003399688, 'bidirectional': True}. Best is trial 0 with value: 0.7451586098760196.
+[I 2026-05-16 03:22:31,657] Trial 3 finished with value: 0.7268180447494023 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.00020017748774178647, 'bidirectional': True}. Best is trial 0 with value: 0.7451586098760196.
+[I 2026-05-16 03:23:45,426] Trial 4 finished with value: 0.720186039924179 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.0001168990923521535, 'bidirectional': False}. Best is trial 0 with value: 0.7451586098760196.
+[I 2026-05-16 03:25:45,074] Trial 5 finished with value: 0.7440015159251053 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.001886649598289935, 'bidirectional': False}. Best is trial 0 with value: 0.7451586098760196.
+[I 2026-05-16 03:28:05,277] Trial 6 finished with value: 0.7389268177412002 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.0010767665109880757, 'bidirectional': False}. Best is trial 0 with value: 0.7451586098760196.
+[I 2026-05-16 03:29:30,219] Trial 7 finished with value: 0.7359318859730046 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.0031840468620706703, 'bidirectional': False}. Best is trial 0 with value: 0.7451586098760196.
+[I 2026-05-16 03:30:33,693] Trial 8 finished with value: 0.7169808436927526 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.0001169875055250954, 'bidirectional': False}. Best is trial 0 with value: 0.7451586098760196.
+[I 2026-05-16 03:39:38,841] Trial 9 finished with value: 0.7345248564608868 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.000155963282907863, 'bidirectional': True}. Best is trial 0 with value: 0.7451586098760196.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.7346
+Epoch 20 | Val F1: 0.7329
+Epoch 30 | Val F1: 0.7295
+Epoch 40 | Val F1: 0.7479
+Epoch 50 | Val F1: 0.7400
+Epoch 60 | Val F1: 0.7315
+Epoch 70 | Val F1: 0.7386
+Epoch 80 | Val F1: 0.7418
+Epoch 90 | Val F1: 0.7332
+Epoch 100 | Val F1: 0.7370
+✅ Tamamlandı. Çıktılar './14' klasöründe.
+
+========== seq_len = 15 ==========
+── Optuna HP Arama ──
+[I 2026-05-16 03:47:56,337] A new study created in memory with name: no-name-aa48b596-d833-4019-9f08-57beacefc169
+[I 2026-05-16 03:49:10,693] Trial 0 finished with value: 0.7397587119946863 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.0008033260459643352, 'bidirectional': False}. Best is trial 0 with value: 0.7397587119946863.
+[I 2026-05-16 03:50:08,035] Trial 1 finished with value: 0.7446626403474965 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.002772310442899663, 'bidirectional': False}. Best is trial 1 with value: 0.7446626403474965.
+[I 2026-05-16 03:51:22,292] Trial 2 finished with value: 0.7499755155109241 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.004519270529091595, 'bidirectional': False}. Best is trial 2 with value: 0.7499755155109241.
+[I 2026-05-16 03:52:52,964] Trial 3 finished with value: 0.7264288545876829 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.0001156600116830813, 'bidirectional': False}. Best is trial 2 with value: 0.7499755155109241.
+[I 2026-05-16 03:55:00,304] Trial 4 finished with value: 0.7394712363747223 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.00025752911897506086, 'bidirectional': False}. Best is trial 2 with value: 0.7499755155109241.
+[I 2026-05-16 03:59:42,811] Trial 5 finished with value: 0.7398861631763961 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.0007708579853638795, 'bidirectional': False}. Best is trial 2 with value: 0.7499755155109241.
+[I 2026-05-16 04:00:59,596] Trial 6 finished with value: 0.735394248023976 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.0007193478137081816, 'bidirectional': False}. Best is trial 2 with value: 0.7499755155109241.
+[I 2026-05-16 04:02:47,140] Trial 7 finished with value: 0.7435104542465559 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.0026821481143137972, 'bidirectional': True}. Best is trial 2 with value: 0.7499755155109241.
+[I 2026-05-16 04:03:48,988] Trial 8 finished with value: 0.7276112755012484 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.00032848831547547565, 'bidirectional': False}. Best is trial 2 with value: 0.7499755155109241.
+[I 2026-05-16 04:05:37,783] Trial 9 finished with value: 0.7468555803808878 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.0038444514589390856, 'bidirectional': True}. Best is trial 2 with value: 0.7499755155109241.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.7147
+Epoch 20 | Val F1: 0.7219
+Epoch 30 | Val F1: 0.7041
+Epoch 40 | Val F1: 0.6940
+Epoch 50 | Val F1: 0.6566
+Epoch 60 | Val F1: 0.6171
+Epoch 70 | Val F1: 0.5362
+Epoch 80 | Val F1: 0.4261
+Epoch 90 | Val F1: 0.4416
+Epoch 100 | Val F1: 0.4050
+✅ Tamamlandı. Çıktılar './15' klasöründe.
+
+========== seq_len = 16 ==========
+── Optuna HP Arama ──
+[I 2026-05-16 04:14:42,075] A new study created in memory with name: no-name-8005f368-4c6b-4544-a14b-51b1c9fb3aa9
+[I 2026-05-16 04:16:17,465] Trial 0 finished with value: 0.735800920148702 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.0005331854482746589, 'bidirectional': False}. Best is trial 0 with value: 0.735800920148702.
+[I 2026-05-16 04:18:45,770] Trial 1 finished with value: 0.739618235923526 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.000942229180779417, 'bidirectional': True}. Best is trial 1 with value: 0.739618235923526.
+[I 2026-05-16 04:20:03,001] Trial 2 finished with value: 0.7271204362903575 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.00011833019938611092, 'bidirectional': False}. Best is trial 1 with value: 0.739618235923526.
+[I 2026-05-16 04:22:01,220] Trial 3 finished with value: 0.7261578292791484 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.00010394870152985388, 'bidirectional': True}. Best is trial 1 with value: 0.739618235923526.
+[I 2026-05-16 04:23:20,131] Trial 4 finished with value: 0.7430420786320298 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.0017571566173373758, 'bidirectional': False}. Best is trial 4 with value: 0.7430420786320298.
+[I 2026-05-16 04:24:41,274] Trial 5 finished with value: 0.7431734094385217 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.0037573795727632773, 'bidirectional': False}. Best is trial 5 with value: 0.7431734094385217.
+[I 2026-05-16 04:25:41,611] Trial 6 finished with value: 0.7449078732213389 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.0021497206301276804, 'bidirectional': False}. Best is trial 6 with value: 0.7449078732213389.
+[I 2026-05-16 04:30:37,026] Trial 7 finished with value: 0.7499297358323237 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.0009314717414745367, 'bidirectional': True}. Best is trial 7 with value: 0.7499297358323237.
+[I 2026-05-16 04:31:50,308] Trial 8 finished with value: 0.7269948809078955 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.00029963377625670957, 'bidirectional': False}. Best is trial 7 with value: 0.7499297358323237.
+[I 2026-05-16 04:33:22,243] Trial 9 finished with value: 0.7412046822437168 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.0005976291947901728, 'bidirectional': False}. Best is trial 7 with value: 0.7499297358323237.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.7351
+Epoch 20 | Val F1: 0.7422
+Epoch 30 | Val F1: 0.7443
+Epoch 40 | Val F1: 0.7441
+Epoch 50 | Val F1: 0.7383
+Epoch 60 | Val F1: 0.7421
+Epoch 70 | Val F1: 0.7422
+Epoch 80 | Val F1: 0.7449
+Epoch 90 | Val F1: 0.7430
+Epoch 100 | Val F1: 0.7329
+✅ Tamamlandı. Çıktılar './16' klasöründe.
+PS C:\Users\kahra\Desktop\lstm>
+
+PS C:\Users\kahra\Desktop\lstm> python .\03-seq_len.py
+
+========== seq_len = 17 ==========
+── Optuna HP Arama ──
+[I 2026-05-16 08:15:16,665] A new study created in memory with name: no-name-359f2c7d-df1b-4ac5-8230-2bb83f26fd0e
+[I 2026-05-16 08:17:38,634] Trial 0 finished with value: 0.7315376665891462 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.000737533619439573, 'bidirectional': False}. Best is trial 0 with value: 0.7315376665891462.
+[I 2026-05-16 08:28:28,088] Trial 1 finished with value: 0.7453414252884686 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.0003010843501385727, 'bidirectional': True}. Best is trial 1 with value: 0.7453414252884686.
+[I 2026-05-16 08:32:38,384] Trial 2 finished with value: 0.7381326398151387 and parameters: {'hidden_size': 128, 'num_layers': 2, 'lr': 0.0011919070215664284, 'bidirectional': True}. Best is trial 1 with value: 0.7453414252884686.
+[I 2026-05-16 08:37:25,897] Trial 3 finished with value: 0.7406470537841181 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.00044742307730092214, 'bidirectional': True}. Best is trial 1 with value: 0.7453414252884686.
+[I 2026-05-16 08:42:05,791] Trial 4 finished with value: 0.7516162162417243 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.0005823329627427827, 'bidirectional': True}. Best is trial 4 with value: 0.7516162162417243.
+[I 2026-05-16 08:45:04,414] Trial 5 finished with value: 0.7370661062684996 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.0006286278740367683, 'bidirectional': True}. Best is trial 4 with value: 0.7516162162417243.
+[I 2026-05-16 08:49:52,632] Trial 6 finished with value: 0.7198019450823068 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.007842393026428942, 'bidirectional': True}. Best is trial 4 with value: 0.7516162162417243.
+[I 2026-05-16 08:52:32,474] Trial 7 finished with value: 0.7448975023022106 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.003910511243631105, 'bidirectional': False}. Best is trial 4 with value: 0.7516162162417243.
+[I 2026-05-16 08:56:12,098] Trial 8 finished with value: 0.743159738492038 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.0005212124185996637, 'bidirectional': True}. Best is trial 4 with value: 0.7516162162417243.
+[I 2026-05-16 09:00:29,014] Trial 9 finished with value: 0.7364702322517549 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.00025879803802741593, 'bidirectional': False}. Best is trial 4 with value: 0.7516162162417243.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.7104
+Epoch 20 | Val F1: 0.7317
+Epoch 30 | Val F1: 0.7386
+Epoch 40 | Val F1: 0.7397
+Epoch 50 | Val F1: 0.7404
+Epoch 60 | Val F1: 0.7427
+Epoch 70 | Val F1: 0.7486
+Epoch 80 | Val F1: 0.7443
+Epoch 90 | Val F1: 0.7453
+Epoch 100 | Val F1: 0.7429
+✅ Tamamlandı. Çıktılar './17' klasöründe.
+
+========== seq_len = 18 ==========
+── Optuna HP Arama ──
+[I 2026-05-16 09:31:47,137] A new study created in memory with name: no-name-365dccf1-81a7-451e-8a53-e513eebb87de
+[I 2026-05-16 09:34:56,829] Trial 0 finished with value: 0.7437949289662884 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.0045674204852267745, 'bidirectional': True}. Best is trial 0 with value: 0.7437949289662884.
+[I 2026-05-16 09:40:08,406] Trial 1 finished with value: 0.7350549760989401 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.0001237703547931744, 'bidirectional': True}. Best is trial 0 with value: 0.7437949289662884.
+[I 2026-05-16 09:45:12,248] Trial 2 finished with value: 0.7344291597225662 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.007393749503580427, 'bidirectional': True}. Best is trial 0 with value: 0.7437949289662884.
+[I 2026-05-16 09:49:03,861] Trial 3 finished with value: 0.7152060187035599 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.004917383360002969, 'bidirectional': False}. Best is trial 0 with value: 0.7437949289662884.
+[I 2026-05-16 09:52:52,494] Trial 4 finished with value: 0.740512699600576 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.002409610018187744, 'bidirectional': False}. Best is trial 0 with value: 0.7437949289662884.
+[I 2026-05-16 10:01:18,614] Trial 5 finished with value: 0.7361146982934118 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.00010064719781123522, 'bidirectional': True}. Best is trial 0 with value: 0.7437949289662884.
+[I 2026-05-16 10:06:51,813] Trial 6 finished with value: 0.7403196946774835 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.0028077332557089525, 'bidirectional': False}. Best is trial 0 with value: 0.7437949289662884.
+[I 2026-05-16 10:09:52,536] Trial 7 finished with value: 0.6936803373916898 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.009205038245001972, 'bidirectional': False}. Best is trial 0 with value: 0.7437949289662884.
+[I 2026-05-16 10:12:40,758] Trial 8 finished with value: 0.7578196475309262 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.0038665667335990375, 'bidirectional': True}. Best is trial 8 with value: 0.7578196475309262.
+[I 2026-05-16 10:24:00,441] Trial 9 finished with value: 0.6996501087138851 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.004489296037570543, 'bidirectional': True}. Best is trial 8 with value: 0.7578196475309262.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.7341
+Epoch 20 | Val F1: 0.7497
+Epoch 30 | Val F1: 0.7349
+Epoch 40 | Val F1: 0.7488
+Epoch 50 | Val F1: 0.7529
+Epoch 60 | Val F1: 0.7455
+Epoch 70 | Val F1: 0.7557
+Epoch 80 | Val F1: 0.7623
+Epoch 90 | Val F1: 0.7487
+Epoch 100 | Val F1: 0.7468
+✅ Tamamlandı. Çıktılar './18' klasöründe.
+
+========== seq_len = 19 ==========
+── Optuna HP Arama ──
+[I 2026-05-16 10:45:40,406] A new study created in memory with name: no-name-025f095a-a932-402e-b617-30196145e7db
+[I 2026-05-16 10:48:51,583] Trial 0 finished with value: 0.6394747489510904 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.008500239190586038, 'bidirectional': False}. Best is trial 0 with value: 0.6394747489510904.
+[I 2026-05-16 10:56:57,176] Trial 1 finished with value: 0.7195605652297735 and parameters: {'hidden_size': 256, 'num_layers': 2, 'lr': 0.006038941790233633, 'bidirectional': True}. Best is trial 1 with value: 0.7195605652297735.
+[I 2026-05-16 11:00:06,914] Trial 2 finished with value: 0.7120172511715621 and parameters: {'hidden_size': 64, 'num_layers': 3, 'lr': 0.0003952017823903041, 'bidirectional': False}. Best is trial 1 with value: 0.7195605652297735.
+[I 2026-05-16 11:04:22,008] Trial 3 finished with value: 0.7340189156933492 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.0002043062853209504, 'bidirectional': True}. Best is trial 3 with value: 0.7340189156933492.
+[I 2026-05-16 11:09:12,463] Trial 4 finished with value: 0.7488194742236518 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.0004530057712765241, 'bidirectional': True}. Best is trial 4 with value: 0.7488194742236518.
+[I 2026-05-16 11:15:55,696] Trial 5 finished with value: 0.7473910873005175 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.001233497873343293, 'bidirectional': False}. Best is trial 4 with value: 0.7488194742236518.
+[I 2026-05-16 11:20:06,620] Trial 6 finished with value: 0.7476131820923373 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.005154352266030744, 'bidirectional': True}. Best is trial 4 with value: 0.7488194742236518.
+[I 2026-05-16 11:22:53,827] Trial 7 finished with value: 0.7376228010696032 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.008163858961159029, 'bidirectional': False}. Best is trial 4 with value: 0.7488194742236518.
+[I 2026-05-16 11:26:36,547] Trial 8 finished with value: 0.7448555512713297 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.0018262152046196636, 'bidirectional': False}. Best is trial 4 with value: 0.7488194742236518.
+[I 2026-05-16 11:29:27,361] Trial 9 finished with value: 0.7451515815417922 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.006837298055244939, 'bidirectional': False}. Best is trial 4 with value: 0.7488194742236518.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.7328
+Epoch 20 | Val F1: 0.7250
+Epoch 30 | Val F1: 0.7380
+Epoch 40 | Val F1: 0.7394
+Epoch 50 | Val F1: 0.7397
+Epoch 60 | Val F1: 0.7400
+Epoch 70 | Val F1: 0.7370
+Epoch 80 | Val F1: 0.7375
+Epoch 90 | Val F1: 0.7400
+Epoch 100 | Val F1: 0.7424
+✅ Tamamlandı. Çıktılar './19' klasöründe.
+
+========== seq_len = 20 ==========
+── Optuna HP Arama ──
+[I 2026-05-16 12:08:41,710] A new study created in memory with name: no-name-ebab58fc-321f-4cb6-ba99-555cc14aad7d
+[I 2026-05-16 12:21:49,515] Trial 0 finished with value: 0.44212527319064915 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.00950005922079603, 'bidirectional': True}. Best is trial 0 with value: 0.44212527319064915.
+[I 2026-05-16 12:25:31,752] Trial 1 finished with value: 0.7377744202295957 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.00038346048759570526, 'bidirectional': True}. Best is trial 1 with value: 0.7377744202295957.
+[I 2026-05-16 12:30:09,837] Trial 2 finished with value: 0.7428089128023788 and parameters: {'hidden_size': 256, 'num_layers': 1, 'lr': 0.00033142019384573544, 'bidirectional': True}. Best is trial 2 with value: 0.7428089128023788.
+[I 2026-05-16 12:32:56,475] Trial 3 finished with value: 0.757795677974255 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.003989290474313417, 'bidirectional': True}. Best is trial 3 with value: 0.757795677974255.
+[I 2026-05-16 12:44:27,276] Trial 4 finished with value: 0.7527578750790729 and parameters: {'hidden_size': 256, 'num_layers': 3, 'lr': 0.0011599443013740553, 'bidirectional': True}. Best is trial 3 with value: 0.757795677974255.
+[I 2026-05-16 12:47:33,161] Trial 5 finished with value: 0.7342509653097896 and parameters: {'hidden_size': 128, 'num_layers': 3, 'lr': 0.00011969171740240264, 'bidirectional': False}. Best is trial 3 with value: 0.757795677974255.
+[I 2026-05-16 12:48:50,642] Trial 6 finished with value: 0.7466445473775237 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.005282601476828459, 'bidirectional': False}. Best is trial 3 with value: 0.757795677974255.
+[I 2026-05-16 12:50:02,976] Trial 7 finished with value: 0.7409804484099048 and parameters: {'hidden_size': 128, 'num_layers': 1, 'lr': 0.0006024253495549833, 'bidirectional': False}. Best is trial 3 with value: 0.757795677974255.
+[I 2026-05-16 12:51:39,927] Trial 8 finished with value: 0.7378638804816838 and parameters: {'hidden_size': 64, 'num_layers': 2, 'lr': 0.006009115790915486, 'bidirectional': False}. Best is trial 3 with value: 0.757795677974255.
+[I 2026-05-16 12:54:36,289] Trial 9 finished with value: 0.7345144785908952 and parameters: {'hidden_size': 64, 'num_layers': 1, 'lr': 0.00036580189081294063, 'bidirectional': False}. Best is trial 3 with value: 0.757795677974255.
+
+── Final Eğitim Başlıyor ──
+Epoch 10 | Val F1: 0.7316
+Epoch 20 | Val F1: 0.7396
+Epoch 30 | Val F1: 0.7514
+Epoch 40 | Val F1: 0.7381
+Epoch 50 | Val F1: 0.7363
+Epoch 60 | Val F1: 0.7408
+Epoch 70 | Val F1: 0.7498
+Epoch 80 | Val F1: 0.7469
+Epoch 90 | Val F1: 0.7412
+Epoch 100 | Val F1: 0.7339
+✅ Tamamlandı. Çıktılar './20' klasöründe.
+PS C:\Users\kahra\Desktop\lstm> s
